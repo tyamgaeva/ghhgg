@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Chistoso';
+    src: url('Chistoso-Regular.eot');
+    src: url('Chistoso-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Chistoso-Regular.woff2') format('woff2'),
+        url('Chistoso-Regular.woff') format('woff'),
+        url('Chistoso-Regular.ttf') format('truetype'),
+        url('Chistoso-Regular.svg#Chistoso-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

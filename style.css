@@ -1,0 +1,376 @@
+* {box-sizing: border-box;
+    margin: 0; padding: 0;}
+
+    body {
+        background-color: #FFF9F0;
+    }
+
+    header {
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-text {
+        font-family: 'Aeroport';
+        font-weight: bold;
+        font-style: normal;
+        color: #081F5C;
+        text-decoration: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        margin: 45px 45px 0 45px;
+        width: 1350px;
+    }
+
+   .navs {
+        font-size: 32px;
+        margin-right: 44px;
+    }
+
+    .support {
+        text-decoration: none;
+        font-family: 'Aeroport';
+        font-weight: bold;
+        font-style: normal;
+        color: #FFF9F0;
+        font-size: 24px;
+        background-color: #7096D1;
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: 30px;
+        padding: 30px;
+    }
+
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 200px;
+        color: #081F5C;
+        font-family: 'Chistoso';
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -100px;
+    }
+
+    .about {
+        background-image: url(img/back1.png);
+        width: 1440px;
+        height: 1450px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        font-size: 128px;
+        margin-top: 455px;
+        padding-top: 50px;
+        margin-left: 110px;
+    }
+
+    .text {
+        font-size: 36px;
+        margin-left: 110px;
+        margin-top: 40px;
+        padding-bottom: 287px;
+    }
+
+    .afisha {
+        display: flex;
+        flex-direction: column;
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -90px;
+    }
+
+    h4 {
+        font-size: 128px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    article {
+        display: flex;
+        margin: 40px 180px 0 180px;
+        justify-content: space-between;
+        z-index: 10000;
+    }
+
+    .img {
+        border: 8px solid #7096D1;
+        border-radius: 30px;
+    }
+
+    .img:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+
+    .buy {
+        background-image: url(img/back2.png);
+        margin-top: -300px;
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h5 {
+        font-size: 128px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 365px;
+    }
+
+    form {
+        padding: 30px 70px 20px 85px;
+        background-color: #FFF9F0;
+        width: 575px;
+        height: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .line1 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 32px;
+    }
+
+    .block {
+        width: 195px;
+        height: 20px;
+        background-color: #7096D1;
+        border: 0;
+        border-radius: 30px;
+        font-family: 'Aeroport';
+        font-weight: bold;
+        font-style: normal;
+        color: #FFF9F0;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .block:focus {
+        background-color: #7096D1;
+        border: 0;
+        border-radius: 30px;
+        outline: none;
+        font-family: 'Aeroport';
+        font-weight: bold;
+        font-style: normal;
+        color: #FFF9F0;
+        font-size: 20px;
+    }
+
+    .checkbox {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .block2{
+        color: #7096D1;
+        border: 0;
+        outline: none;
+        margin-right: 10px;
+    }
+
+    .block2:focus {
+        color: #7096D1;
+        border: 0;
+        outline: none;
+    }
+
+    .two-buttom {
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 260px;
+    }
+
+    .line2 {
+        font-family: 'Aeroport';
+        font-weight: bold;
+        font-style: normal;
+        color: #FFF9F0;
+        font-size: 15px;
+        background-color: #081F5C;
+        padding: 20px 40px 20px 40px;
+        border-radius: 15px;
+        border: 0;
+        outline: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 1030px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Aeroport';
+        font-weight: 500;
+        font-style: normal;
+        color: #FFF9F0;
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+
+    @font-face {
+    font-family: 'Chistoso';
+    src: url('fonts/chistoso/Chistoso-Regular.eot');
+    src: url('fonts/chistoso/Chistoso-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/chistoso/Chistoso-Regular.woff2') format('woff2'),
+        url('fonts/chistoso/Chistoso-Regular.woff') format('woff'),
+        url('fonts/chistoso/Chistoso-Regular.ttf') format('truetype'),
+        url('fonts/chistoso/Chistoso-Regular.svg#Chistoso-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-Light.eot');
+        src: local('fonts/Aeroport Light'), local('Aeroport-Light'),
+            url('fonts/Aeroport-Light.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-Light.woff2') format('woff2'),
+            url('fonts/Aeroport-Light.woff') format('woff'),
+            url('fonts/Aeroport-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport Mono';
+        src: url('fonts/AeroportMono.eot');
+        src: local('fonts/Aeroport Mono'), local('AeroportMono'),
+            url('fonts/AeroportMono.eot?#iefix') format('embedded-opentype'),
+            url('fonts/AeroportMono.woff2') format('woff2'),
+            url('fonts/AeroportMono.woff') format('woff'),
+            url('fonts/AeroportMono.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-Bold.eot');
+        src: local('fonts/Aeroport Bold'), local('Aeroport-Bold'),
+            url('fonts/Aeroport-Bold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-Bold.woff2') format('woff2'),
+            url('fonts/Aeroport-Bold.woff') format('woff'),
+            url('fonts/Aeroport-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-LightItalic.eot');
+        src: local('fonts/Aeroport Light Italic'), local('Aeroport-LightItalic'),
+            url('fonts/Aeroport-LightItalic.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-LightItalic.woff2') format('woff2'),
+            url('fonts/Aeroport-LightItalic.woff') format('woff'),
+            url('fonts/Aeroport-LightItalic.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-BoldItalic.eot');
+        src: local('fonts/Aeroport Bold Italic'), local('Aeroport-BoldItalic'),
+            url('fonts/Aeroport-BoldItalic.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-BoldItalic.woff2') format('woff2'),
+            url('fonts/Aeroport-BoldItalic.woff') format('woff'),
+            url('fonts/Aeroport-BoldItalic.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-MediumItalic.eot');
+        src: local('fonts/Aeroport Medium Italic'), local('Aeroport-MediumItalic'),
+            url('fonts/Aeroport-MediumItalic.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-MediumItalic.woff2') format('woff2'),
+            url('fonts/Aeroport-MediumItalic.woff') format('woff'),
+            url('fonts/Aeroport-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport.eot');
+        src: local('fonts/Aeroport'),
+            url('fonts/Aeroport.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport.woff2') format('woff2'),
+            url('fonts/Aeroport.woff') format('woff'),
+            url('fonts/Aeroport.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-Italic.eot');
+        src: local('fonts/Aeroport Italic'), local('Aeroport-Italic'),
+            url('fonts/Aeroport-Italic.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-Italic.woff2') format('woff2'),
+            url('fonts/Aeroport-Italic.woff') format('woff'),
+            url('fonts/Aeroport-Italic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Aeroport';
+        src: url('fonts/Aeroport-Medium.eot');
+        src: local('fonts/Aeroport Medium'), local('Aeroport-Medium'),
+            url('fonts/Aeroport-Medium.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Aeroport-Medium.woff2') format('woff2'),
+            url('fonts/Aeroport-Medium.woff') format('woff'),
+            url('fonts/Aeroport-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
